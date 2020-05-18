@@ -2,30 +2,40 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Travel webpage</title>
+        <title>Project: Event invite</title>
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
         <style>
-            .guide {color: blue;}
-            h1 {color:rgb(204, 209, 50) ;}
-            body {background: rgb(32, 113, 212);}
+            .best {color: red;
+                font-family: 'Playfair Display SC', serif;
+                font-weight: lighter;
+            }
+            .SP {font-family: 'Playfair Display SC', serif;
+                font-weight: bold;
+                background: rgb(237, 240, 149);
+                border: dotted;
+                padding: 50px;
+                text-align: center;
+            }
+            .prestige {color: rgb(222, 131, 20);
+                font-weight: lighter;
+            }
+            .image {border: red;
+                float: absolute;
+            }
+            
         </style>
     </head>
     <body>
-    <img src="https://www.kasandbox.org/programming-images/cute/BrownBlock.png" alt="Picture of brown block">
-        <h1>Travel to HAWAII!</h1>
-        <h2> The Complete Guide</h2>
-        <p class="guide"><strong>This is a complete guide to the greatest beaches on earth!</strong> </p>
-        <p class= "guide"><em>This is <strong>my</strong> complete guide</em></p>
-        <h3>Reasons to go</h3>
-        <ol>
-        <li>Lots of water</li>
-        <li>Nice weather</li>
-        <li>Great hotels</li>
-        <li>Plenty of tasty food</li> <img src="https://www.kasandbox.org/programming-images/avatars/leaf-green.png" alt= "Picture of green leaf">
-        </ol>
-        <h4>Reasons to not go</h4>
+        <div class="SP">
+        <h1>You're invited!</h1>
+        <span class="image"><img src="https://www.kasandbox.org/programming-images/space/star.png"></span>
+        <h2>This weeks taco party!</h2>
+        
+        <p>The details:</p>
         <ul>
-        <li>Absolutely none!</li>    
+        <li><span class="best">Bring your best tacos</span></li>
+        <li><span class="prestige">Only the most important are invited</span></li>
         </ul>
-        <img src="https://www.kasandbox.org/programming-images/avatars/old-spice-man.png">
+        </div>
     </body>
 </html>
